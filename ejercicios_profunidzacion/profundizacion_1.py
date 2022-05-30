@@ -1,4 +1,4 @@
-# Condicionales [Python]
+# Tipos de variables [Python]
 # Ejercicios de profundización
 
 # Autor: Inove Coding School
@@ -15,10 +15,24 @@
 # Ejercicios de práctica con números
 '''
 Enunciado:
-Realice un programa que solicite por consola 2 números
-Calcule la diferencia entre ellos e informe por pantalla
-si el resultado es positivo, negativo o cero.
+Realice un calculadora, se ingresará por línea de comando dos
+números reales y se deberá calcular todas las operaciones entre ellos:
+A) Suma
+B) Resta
+C) Multiplicación
+D) División
+E) Exponente/Potencia
+
+- Para todos los casos se debe imprimir en pantalla el resultado aclarando
+  la operación realizada en cada caso y con que números
+  se ha realizado la operación
+  ej: La suma entre 4.2 y 6.5 es 10.7
 '''
 
-print('Ejercicios de práctica con números')
-# Empezar aquí la resolución del ejercicio
+print('¡Nuestra primera calculadora!')
+
+numero_1 = int(input())
+print(numero_1)
+
+numero_2 = int(input())
+print(numero_2)

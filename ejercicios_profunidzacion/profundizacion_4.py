@@ -1,4 +1,4 @@
-# Condicionales [Python]
+# Tipos de variables [Python]
 # Ejercicios de profundización
 
 # Autor: Inove Coding School
@@ -12,24 +12,36 @@
 
 # IMPORTANTE: NO borrar los comentarios en VERDE o NARANJA
 
-# Ejercicios de práctica con texto
+# Ejercicios de práctica numérica y cadenas
 '''
 Enunciado:
-Realice un programa que solicite por consola 3 palabras cualesquiera
-Luego el programa debe consultar al usuario como quiere ordenar las palabras
-1 - Ordenar por orden alfabético (usando el operador ">")
-2 - Ordenar por cantidad de letras (longitud de la palabra (len) y operador ">")
+Realice un programa que determine cual sería el apellido de una persona
+al ingresara los dos nombres completos de sus padres.
+En definitiva se solicita crear una variable nueva que reuna
+los apellidos.
 
-Si se ingresa "1" por consola se deben ordenar las 3 palabras por orden alfabético
-e imprimir en pantalla de la mayor a la menor
+- Primero el programa debe consultar el nombre completo del padre_1
+- Luego el programa debe consultar el nombre completo del padre_2
+- Luego debe consultar el nombre del hijo/a
+- Debe extraer los apellidos de los padres (ver la nota al final)
+- Luego formar el nombre completo del hijo/a utilizando los apellidos
+  de sus padres y el nombre ingresado de dicha persona
+- Imprimir en pantalla el resultado
 
-Si se ingresa "2" por consola se deben ordenar las 3 palabras por cantidad de letras
-e imprimir en pantalla de la mayor a la menor
+NOTA: Para extraer el apellido del nombre completo recomendamos usar
+el método "split"
+Mostraremos un ejemplo:
 
-IMPORTANTE: Para ordenar las palabras deben realizar condicionales compuestos o anidados,
-no se busca utilizar bucles o algoritmos de ordenamiento ya que aún no hemos llegado a ese
-contenido.
+direccion_completa = 'Monroe 2716'
+calle, altura = direccion_completa.split(' ')
+
+Les dejo por su cuenta a que busquen un poco más acerca de este método
+que seguramente utilizarán mucho de acá en adelante.
+Les dejamos un link con algunos ejemplos más:
+https://www.pythonforbeginners.com/dictionary/python-split
+
+Cualquier duda con el método split pueden consultarla por el campus
 '''
 
-print('Ejercicios de práctica con cadenas')
+print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio

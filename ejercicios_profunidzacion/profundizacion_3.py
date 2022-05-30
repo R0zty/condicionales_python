@@ -1,4 +1,4 @@
-# Condicionales [Python]
+# Tipos de variables [Python]
 # Ejercicios de profundización
 
 # Autor: Inove Coding School
@@ -12,21 +12,29 @@
 
 # IMPORTANTE: NO borrar los comentarios en VERDE o NARANJA
 
-# Ejercicios de práctica con números
+# Ejercicios de práctica con cadenas
 '''
 Enunciado:
-Realice un programa que solicite ingresar tres valores de temperatura
-De las temperaturas ingresadas por consola determinar:
-1 - ¿Cuáles de ellas es la máxima temperatura ingresada?
-2 - ¿Cuáles de ellas es la mínima temperatura ingresada?
-3 - ¿Cuál es el promedio de las temperaturas ingresadas?
+Realice un programa que reciba por consola su nombre completo
+e imprima en pantalla su nombre en los siguientes formatos:
+- Todas las letras en minúsculas
+- Todas las letras en mayúsculas
+- Solo la primera letra del nombre en mayúscula
 
-En cada caso imprimir en pantalla el resultado
+NOTA: Para realizar este ejercicio deberá usar los siguientes métodos
+de strings:
+- lower
+- upper
+- capitalize
 
-IMPORTANTE: Para ordenar las temperatuas debe utilizar condicionales compuestos o anidados,
-no se busca utilizar bucles o algoritmos de ordenamiento ya que aún no hemos llegado a ese
-contenido. Recomendamos pensar bien este problema de lógica con un lápiz y papel.
+Puede buscar en internet como usar en Python estos métodos.
+Les dejamos el siguiente link que posee casos de uso de algunos de ellos:
+
+Link de referencia:
+https://www.geeksforgeeks.org/isupper-islower-lower-upper-python-applications/
+
+Cualquier duda con estos métodos pueden consultarla por el campus
 '''
 
-print('Ejercicios de práctica con números')
+print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
